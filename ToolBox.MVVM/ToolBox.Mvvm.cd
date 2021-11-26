@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ToolBox.MVVM.Command.CommandBase" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\CommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolBox.MVVM.Model.ModelBase" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABCAQAACAABAAABgAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolBox.MVVM.ViewModel.ViewModelBase" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ToolBox.MVVM.ViewModel.ViewModelCollectionBase&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAACAAAAAAAAAAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>ViewModel\ViewModelCollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

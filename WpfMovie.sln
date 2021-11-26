@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMovie", "WpfMovie\WpfMovie.csproj", "{2AB47D11-43FA-4B51-9E3F-B39C3EDAED95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMovie.EntityFramework", "WpfMovie.EntityFramework\WpfMovie.EntityFramework.csproj", "{33046C15-5367-4AB6-853D-EA9A7ABF3955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM", "MVVM", "{751AA81E-A4C5-407B-B7CF-56A4FA10AE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBox.MVVM", "ToolBox.MVVM\ToolBox.MVVM.csproj", "{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBox.Services", "ToolBox.Services\ToolBox.Services.csproj", "{8F106656-D29F-40ED-BDA9-BAF16E4BA82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMovie.Models", "WpfMovie.Models\WpfMovie.Models.csproj", "{65D5AE2A-8D20-4CC2-8B4A-53BF11D58982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMovie.Services", "WpfMovie.Services\WpfMovie.Services.csproj", "{0009B18A-D440-4B7C-A13D-AF5A6286803B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB47D11-43FA-4B51-9E3F-B39C3EDAED95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB47D11-43FA-4B51-9E3F-B39C3EDAED95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB47D11-43FA-4B51-9E3F-B39C3EDAED95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB47D11-43FA-4B51-9E3F-B39C3EDAED95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33046C15-5367-4AB6-853D-EA9A7ABF3955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33046C15-5367-4AB6-853D-EA9A7ABF3955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33046C15-5367-4AB6-853D-EA9A7ABF3955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33046C15-5367-4AB6-853D-EA9A7ABF3955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F106656-D29F-40ED-BDA9-BAF16E4BA82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F106656-D29F-40ED-BDA9-BAF16E4BA82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F106656-D29F-40ED-BDA9-BAF16E4BA82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F106656-D29F-40ED-BDA9-BAF16E4BA82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D5AE2A-8D20-4CC2-8B4A-53BF11D58982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D5AE2A-8D20-4CC2-8B4A-53BF11D58982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D5AE2A-8D20-4CC2-8B4A-53BF11D58982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D5AE2A-8D20-4CC2-8B4A-53BF11D58982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0009B18A-D440-4B7C-A13D-AF5A6286803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0009B18A-D440-4B7C-A13D-AF5A6286803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0009B18A-D440-4B7C-A13D-AF5A6286803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0009B18A-D440-4B7C-A13D-AF5A6286803B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F8EFCE1-10FE-457D-A8B4-418FB77A68A4} = {751AA81E-A4C5-407B-B7CF-56A4FA10AE5B}
+		{8F106656-D29F-40ED-BDA9-BAF16E4BA82F} = {751AA81E-A4C5-407B-B7CF-56A4FA10AE5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F67B2469-4D5B-4F1B-8B56-23ECEE638BAF}
+	EndGlobalSection
+EndGlobal
